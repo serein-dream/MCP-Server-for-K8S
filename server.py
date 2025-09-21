@@ -289,7 +289,7 @@ async def build_helm_deployables(
     try:
         # Get ATT_ROOT path
         if att_root is None:
-            att_root = os.environ.get('ATT_ROOT')
+            att_root = os.environ.get('ALL_THE_THINGS_ROOT')
             if att_root is None:
                 raise ValueError("ATT_ROOT environment variable is not set and att_root parameter is not provided")
         
