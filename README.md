@@ -101,5 +101,6 @@ cluster_name: "sandbox"
 ```
 env: "eu-north-1-prod-sandbox"
 ```
-*This approach relies on Cursor to understand and split the string, which may result in incorrect parsing.*
+*This Parameter relies on cursor understanding and splitting, which may lead to incorrect partitioning. It is still recommended to specify in the form of three parameters.*
+
 
